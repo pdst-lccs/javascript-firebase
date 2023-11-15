@@ -1,0 +1,5 @@
+  // reset form 
+  emailField.value = ''; // clear the field
+  emailField.focus(); // set the focus
+
+  // TASK 4D

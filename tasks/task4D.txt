@@ -1,0 +1,20 @@
+// Submit clicked so save the data on Firebase
+function saveContacts() {
+  //alert("SUBMIT clicked!!!");
+  
+  // read the data from the email field
+  const emailField = document.getElementById("email");
+  const emailFieldValue = emailField.value;
+  alert(emailFieldValue)
+
+  // reset form 
+  emailField.value = ''; // clear the field
+  emailField.focus(); // set the focus
+
+  // TASK 4D
+  // code to save the data to Firebase GOES HERE!
+  const data = myDBCxn.push();
+  data.set( {email: emailFieldValue
+            });
+
+} // end saveContacts

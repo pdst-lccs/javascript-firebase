@@ -1,0 +1,17 @@
+// Task 5C - Code to retrieve and display the data in a list goes here ...
+myDBCxn.on("child_added", displayDataAsList);
+
+// A handler to display the Firebase data as a list
+function displayDataAsList(data, prevChildKey) {
+
+    const datapoint = data.val();
+  
+    // create a new list item element and set its value to the email address
+    const newListItem = document.createElement('li');
+    newListItem.innerHTML = datapoint.email;
+ 
+    // append the above list item to the ordered list identified by rows
+    const rowList = document.getElementById('rows');
+    rowList.appendChild(newListItem);  
+
+}

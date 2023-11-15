@@ -1,0 +1,7 @@
+// Task 5B - Code to retrieve and display the data goes here ...
+myDBCxn.on("child_added", displayData);
+
+function displayData(data, prevChildKey) {
+    const datapoint = data.val();
+    document.getElementById("contacts").value += datapoint.email + "\n";
+}

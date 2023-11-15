@@ -1,0 +1,4 @@
+  // Task 2E - read the data from the email field
+  const emailField = document.getElementById("email");
+  const emailFieldValue = emailField.value;
+  alert(emailFieldValue);

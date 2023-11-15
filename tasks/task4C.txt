@@ -1,0 +1,6 @@
+// TASK 4C
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+
+// Retrieve the database handle
+const myDBCxn = firebase.database().ref('/contacts');

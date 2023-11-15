@@ -1,0 +1,6 @@
+      <!—TASK 5A: Paste the section code in here -->
+      <section>
+        <!-- An area on the screen to display the contact details -->
+        <textarea rows="20" cols="50" id="contacts"></textarea>
+        <!--ol id="rows"></ol-->
+      </section>

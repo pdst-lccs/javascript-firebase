@@ -1,0 +1,2 @@
+    <!-- TASK 2A: Insert a link to a contact Us page here -->
+    <a href="contact1.html">Contact Us</a> &nbsp;

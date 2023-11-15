@@ -1,0 +1,2 @@
+<!-- TASK 4A: Include firebase.js here -->
+<script src="https://www.gstatic.com/firebasejs/8.4.0/firebase.js"></script>
